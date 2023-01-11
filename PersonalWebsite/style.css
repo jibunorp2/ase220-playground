@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background:linear-gradient(0deg, rgb(94, 94, 94),  rgb(0, 0, 0));
+    padding: 20px;}
+
+header{
+    justify-content: left;
+}
+
+.navbar ul{
+    justify-content: right;
+}
+
+body{
+    background-color: lightcoral;
+}
+footer{
+    background-color: slateblue;
+}
+
+header h1{
+    color: white;
+}
