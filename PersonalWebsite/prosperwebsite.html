@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Yantramanav:wght@300&display=swap');
+    </style>
+    
+</head>
+<body>
+    <header>
+        <logo>
+            <h2>Prosper</h2>
+        </logo>
+        <nav>
+            <ul>
+                <li><a onclick="window.location.href='#first'">Home</a></li>
+                <li><a onclick="window.location.href='#second'">About Me</a></li>
+                <li><a onclick="window.location.href='#third'">Projects</a></li>
+            </ul>
+        </nav>
+        <button type="button" onclick="window.location.href='#fourth'">Contact Me</button>
+    </header>
+    <section id="first">
+        <div id="pics">
+            <h1><span>Welcome!</span></h1>
+            <br>
+            <p id="article">My name is Prosper Jibunor. I am an Applied Software Engineering major.
+                <br> I am a junior at Northern Kentucky University. Welcome to my website. </p>
+
+            <img src="assets/prosper.jpg" id="truepic">
+        </div>
+    </section>
+    <section id="second">
+        <div>
+            <h1 id="title">Hobbies</h1>
+        </div>
+        <div class="container">
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <h2 class="java">Video Games</h2>
+                        <p class="java">I play video games, mostly along-side people.
+                            I also would love to create a video game some day.
+                        </p>
+                    </div>
+                </div>
+                <div class="face face2">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <h2 class="python">Hanging out</h2>
+                        <p class="python">I love hanging out with people, whether eating,
+                            playing video games, playing basketball, going to church.
+                            I just love being around other people. Life is not meant to be done alone.
+                        </p>
+                    </div>
+                </div>
+                <div class="face face2">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <h2 class="cSharp">Video Making</h2>
+                        <p class="cSharp">Video making is a hobby and pastime I've just recently picked up
+                            I find it really fun seeing how things come together at the end. I'm truly blessed
+                             to have people in my life who want apart of such things.
+                        </p>
+                    </div>
+                </div>
+                <div class="face face2">
+                </div>
+            </div>
+        </div>
+        <article id="caption">
+            I am a Christian Nigerian-American. I am a third-year student at Northern Kenutcky University.
+            <br>
+            My favorite things in life are going to church, meeting new people,
+            hanging out with friends, and eating food. 
+            <br>
+            When I want to have fun I mainly play video games, hang out with friends, 
+            make videos with friends, play basketball, things of that nature.
+        </article>
+    </section>
+
+    <section id="third">
+        <div>
+            <h1 id="title">Projects</h1>
+            <article id="caption">As I am newer to the scene of program development
+                I do not have many projects but I am currently working on more!
+                <br> Here you can check out all of the projects I have completed on thus far!
+            </article>
+        </div>
+        <div class="slide-container">
+            <div class="slide-content">
+                <div class="cahd-wrapper">
+                    <div class="cahd">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="cahd-image">
+                                <img src="assets/smallstandin.png" alt="" class="cahd-img">
+                            </div>
+                        </div>
+
+                        <div class="cahd-content">
+                            <h2 class="names">Foober</h2>
+                            <br>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+                            <button class="buttons">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fourth">
+        <div>
+            <h1 id="title">Contact Information</h1>
+        </div>
+        <div>
+            <form action="" id="purpose">
+                <label form="nameof">Email:</label>
+                <input type="email" id="named" name="fname" placeholder="email@prosper.com"><br>
+                <label form="name">Name:</label>
+                <input type="text" id="named" name="fname" placeholder="(###)-###-###"><br>
+                <label form="name">Name:</label>
+                <input type="text" id="named" name="fname" placeholder="Name"><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
